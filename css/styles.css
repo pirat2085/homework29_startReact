@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    background-color: #badbcc;
+    text-align: center;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.card{
+    flex: 1;
+    float: left;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.list {
+    flex: 1;
+    float: right;
+    width: 50%;
+    margin: 0 auto;
+    background: white;
+}
+.ul-list {
+    width: 90%;
+    margin: 0 auto;
+    background: white;
+}
+
+#form_user, #form_get_posts, #form_add_post{
+    background-color: #badbcc;
+    padding: 0 0 20px 0;
+}
+.form-control, .form-label, .btn-success{
+    width: 90%;
+    margin: 0 auto;
+}
+.hidden{
+    display: none;
+}
